@@ -1,0 +1,234 @@
+/* 声明字体图标 注意路径变化 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tomleg') format('truetype'), url('../fonts/icomoon.woff?tomleg') format('woff'), url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.main {
+    width: 980px;
+    height: 456px;
+    margin: 10px 0 10px 220px;
+}
+
+.main .focus {
+    float: left;
+}
+
+.focus img {
+    width: 720px;
+    height: 456px;
+}
+
+.main .newflash {
+    float: right;
+    width: 250px;
+    height: 456px;
+}
+
+.newflash .news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.new_hd {
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #e4e4e4;
+}
+
+.new_hd h4 {
+    float: left;
+    font-size: 14px;
+}
+
+.new_hd .more {
+    float: right;
+}
+
+.new_hd .more::after {
+    content: '\e920';
+    font-family: 'icomoon';
+    padding-left: 5px;
+}
+
+.new_bd {
+    height: 130px;
+    padding: 5px 0 0 15px;
+}
+
+.new_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    height: 210px;
+    overflow: hidden;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 70px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 27px;
+    height: 26px;
+    background: url(../images/icons.png) no-repeat -15px -16px;
+    margin-top: 13px;
+}
+
+
+/* .lifeservice ul li:nth-child(1) i {
+    background: url(../images/icons.png) no-repeat -15px -16px;
+}
+.lifeservice ul li:nth-child(2) i {
+    background: url(../images/icons.png) no-repeat -77px -16px;
+}
+} */
+
+.lifeservice ul li:nth-child(4n) {
+    border-right: 0;
+}
+
+.main .newflash .bargain {
+    height: 75px;
+    width: 250px;
+    padding-top: 5px;
+}
+
+
+/* 推荐模块 */
+
+.recom {
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recom .recom_hd {
+    float: left;
+    width: 206px;
+    height: 163px;
+    text-align: center;
+    line-height: 150px;
+    background-color: #5c5251;
+}
+
+.recom .recom_bd {
+    float: left;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+    width: 248px;
+    height: 163px;
+}
+
+.recom_bd ul li:nth-child(-n+3):after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 1px;
+    height: 145px;
+    background: #dddddd;
+}
+
+
+/* 楼层区 floor 制作 */
+
+.box_hd {
+    height: 30px;
+    margin-top: 18px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: #c81623;
+}
+
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+
+.tab_list ul li {
+    float: left;
+}
+
+.tab_list ul li a {
+    margin: 0 15px;
+}
+
+.box_bd {
+    height: 361px;
+    /* background-color: pink; */
+}
+
+.tab_content .tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    text-align: center;
+    background-color: #fbfbfb;
+}
+
+.col_329 {
+    width: 329px;
+    height: 361px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #eeeeee;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+.col_210 ul {
+    width: 210px;
+    padding-left: 14px;
+}
+
+.col_210 ul li {
+    float: left;
+    height: 24px;
+    width: 87px;
+    text-align: center;
+    margin: 10px 10px 0 0;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.bb {
+    display: block;
+    border-bottom: 1px solid #eeeeee;
+}
